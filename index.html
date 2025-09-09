@@ -3,108 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags: Optimized for "Monster Survivors" -->
-    <title>Monster Survivors - Play The Ultimate Free Online Survival Game</title>
-    <meta name="description" content="Jump into Monster Survivors, a thrilling free-to-play online game. Face relentless waves of enemies, upgrade your skills, and prove you are the ultimate survivor!">
-    
-    <!-- Canonical URL: Tells Google this is the authoritative page -->
+    <title>Monster Survivors & More: Free Online Games to Play Now</title>
+    <meta name="description" content="Play Monster Survivors and a collection of other free online games like Italian Brainrot Quiz, Italian Brainrot Merge, and Bit Gun. Dive into a world of fun and challenge!">
     <link rel="canonical" href="https://tppyiling.xyz">
-    
-    <!-- Tailwind CSS from CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Font for a clean, Apple-like UI -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        /* Apply the font and a smooth scroll behavior */
-        html {
-            scroll-behavior: smooth;
-        }
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            background-color: #f5f5f7; /* Apple's light gray */
+            color: #1d1d1f; /* Apple's charcoal */
+        }
+        .apple-gradient {
+            background-image: linear-gradient(to right, #007aff, #5ac8fa); /* Blue gradient */
+            color: white;
+        }
+        .apple-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .apple-text-blue {
+            color: #007aff; /* Apple's signature blue */
+        }
+        .apple-text-gray {
+            color: #8e8e93; /* Apple's light gray text */
+        }
+        .apple-button {
+            background-color: #007aff;
+            color: white;
+            border-radius: 9999px;
+            padding: 10px 24px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .apple-button:hover {
+            background-color: #005bb5;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
     </style>
 </head>
+<body class="p-4 md:p-10">
 
-<body class="bg-gray-900 text-gray-200 antialiased">
+    <header class="text-center py-12 apple-gradient rounded-3xl mb-8">
+        <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-4">Monster Survivors & Other Games</h1>
+        <p class="text-lg md:text-xl font-light opacity-90">Your one-stop destination for thrilling online games!</p>
+    </header>
 
-    <!-- Main Content Container -->
-    <main class="container mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-
-        <!-- Header Section: Game Title & Tagline -->
-        <header class="text-center mb-8">
-            <h1 class="text-4xl md:text-5xl font-bold text-white mb-3">
-                Monster Survivors
-            </h1>
-            <p class="text-lg md:text-xl text-gray-400">
-                Face the horde, collect powerful upgrades, and fight to become the last survivor in this intense action game.
+    <main class="container mx-auto max-w-7xl">
+        <section class="apple-card p-6 md:p-12 mb-8">
+            <h2 class="text-2xl md:text-4xl font-semibold mb-6">Play Monster Survivors: Can you survive the relentless hordes?</h2>
+            <div class="iframe-container">
+                <iframe src="https://www.crazygames.com/embed/count-masters-stickman-games" allow="autoplay; fullscreen; gamepads; geolocation; microphone; camera;"></iframe>
+            </div>
+            <p class="mt-6 text-lg apple-text-gray">
+                **Monster Survivors** is a fast-paced survival adventure where you fight off endless waves of monsters. Upgrade your skills, collect power-ups, and see how long you can last in this action-packed challenge.
             </p>
-        </header>
-
-        <!-- Game Iframe Section -->
-        <section class="mb-10">
-            <!-- Responsive container to maintain a 16:9 aspect ratio -->
-            <div class="aspect-w-16 aspect-h-9 w-full bg-black rounded-lg shadow-2xl overflow-hidden border border-gray-700">
-                <iframe 
-                    src="https://www.crazygames.com/embed/count-masters-stickman-games" 
-                    frameborder="0" 
-                    scrolling="no" 
-                    allowfullscreen="true"
-                    title="Online Action Game"
-                    class="w-full h-full">
-                </iframe>
-            </div>
         </section>
 
-        <!-- Game Details Section -->
-        <section class="space-y-10">
-            
-            <!-- About the Game -->
-            <div>
-                <h2 class="text-2xl md:text-3xl font-semibold text-white border-b-2 border-gray-700 pb-2 mb-4">
-                    About The Game
-                </h2>
-                <p class="text-gray-300 leading-relaxed">
-                    <strong>Monster Survivors</strong> throws you into a high-stakes arena where endless waves of menacing creatures close in relentlessly. Your goal is straightforward but deeply challenging: survive as long as possible. Each defeated monster drops experience gems; collecting them allows you to level up and choose from a random set of devastating weapons and game-changing abilities. Every run presents a new challenge, forcing you to adapt your strategy and forge powerful skill combinations to annihilate the monster legions.
-                </p>
-            </div>
-
-            <!-- How to Play -->
-            <div>
-                <h2 class="text-2xl md:text-3xl font-semibold text-white border-b-2 border-gray-700 pb-2 mb-4">
-                    How to Play
-                </h2>
-                <div class="text-gray-300 leading-relaxed space-y-3">
-                    <p><strong class="text-blue-400">Movement:</strong> Use your <strong class="text-white">Mouse Cursor</strong> or the <strong class="text-white">WASD / Arrow Keys</strong> to navigate your character and skillfully dodge enemy attacks.</p>
-                    <p><strong class="text-blue-400">Attacking:</strong> All attacks are <strong class="text-white">completely automatic!</strong> This lets you concentrate entirely on strategic movement and survival.</p>
-                    <p><strong class="text-blue-400">Upgrading:</strong> Grab the <strong class="text-white">blue gems</strong> left behind by monsters to fill your experience bar. When you level up, you'll be presented with three random upgrades—choose wisely to build your power.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-8">
+            <section class="apple-card p-6">
+                <h2 class="text-xl md:text-2xl font-semibold mb-4">Italian Brainrot Quiz: Test Your Knowledge</h2>
+                <div class="iframe-container">
+                    <iframe src="https://www.crazygames.com/embed/italianbrainrotquiz-io" allow="autoplay; fullscreen; gamepads; geolocation; microphone; camera;"></iframe>
                 </div>
-            </div>
+                <p class="mt-6 apple-text-gray">
+                    Challenge your brain with the **Italian Brainrot Quiz**! This fun and addictive quiz game will test your knowledge in a unique and engaging way.
+                </p>
+            </section>
 
-            <!-- Key Features -->
-            <div>
-                <h2 class="text-2xl md:text-3xl font-semibold text-white border-b-2 border-gray-700 pb-2 mb-4">
-                    Key Features
-                </h2>
-                <ul class="list-disc list-inside text-gray-300 space-y-2">
-                    <li><strong class="text-white">Intuitive One-Handed Controls:</strong> The simple control scheme is easy to pick up, allowing for deep, skill-based mastery.</li>
-                    <li><strong class="text-white">Infinite Replayability:</strong> With a vast pool of randomized abilities and weapons, no two games are ever identical.</li>
-                    <li><strong class="text-white">Overwhelm the Horde:</strong> Experience the sheer satisfaction of cutting through hundreds of monsters on your screen at once.</li>
-                    <li><strong class="text-white">Strategic Depth:</strong> Discover powerful weapon evolutions and clever ability synergies to become an unstoppable force.</li>
-                    <li><strong class="text-white">Instant Access, Free to Play:</strong> No downloads, no waiting. Jump straight into the action directly from your browser for free.</li>
-                </ul>
+            <section class="apple-card p-6">
+                <h2 class="text-xl md:text-2xl font-semibold mb-4">Italian Brainrot Merge: A Mind-Bending Puzzle</h2>
+                <div class="iframe-container">
+                    <iframe src="https://www.crazygames.com/embed/italian-brainrot-merge" allow="autoplay; fullscreen; gamepads; geolocation; microphone; camera;"></iframe>
+                </div>
+                <p class="mt-6 apple-text-gray">
+                    Merge your way to victory in **Italian Brainrot Merge**. Combine different elements to create new ones and solve intricate puzzles.
+                </p>
+            </section>
+        </div>
+        
+        <section class="apple-card p-6 md:p-12 mb-8">
+            <h2 class="text-2xl md:text-4xl font-semibold mb-6">Bit Gun: Fast-Paced Action Shooter</h2>
+            <div class="iframe-container">
+                <iframe src="https://www.crazygames.com/embed/bit-gun-io" allow="autoplay; fullscreen; gamepads; geolocation; microphone; camera;"></iframe>
             </div>
+            <p class="mt-6 text-lg apple-text-gray">
+                Get ready for non-stop action with **Bit Gun**. This retro-style shooter puts you in the middle of intense battles. Grab your weapon and take down all your opponents to become the last one standing!
+            </p>
         </section>
 
-        <!-- Footer -->
-        <footer class="text-center mt-12 py-6 border-t border-gray-800">
-            <p class="text-gray-500">&copy; 2025 tppyiling.xyz - All Rights Reserved. Play Monster Survivors online for free.</p>
+        <footer class="text-center text-sm apple-text-gray py-8">
+            <p>Copyright &copy; 2025 tppyiling.xyz. All rights reserved.</p>
         </footer>
-
     </main>
 
 </body>
